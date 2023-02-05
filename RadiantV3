@@ -1689,7 +1689,7 @@ local esp = {
     }
 }
 
-local main = library:Load{ Name = "Radiant - " .. script_version_number .. " - Last Updated: " .. last_updated .. " - Beta", SizeX = 600, SizeY = 650, Theme = "Midnight", Extension = "json",  Folder = "1NF1N17Y-Configs" }
+local main = library:Load{ Name = "Radiant - " .. script_version_number .. " - Last Updated: " .. last_updated .. " - Beta", SizeX = 600, SizeY = 650, Theme = "Midnight", Extension = "json",  Folder = "Radiant-Configs" }
 
 --* Tabs *--
 local Tabs = {
@@ -4459,7 +4459,7 @@ ServiceConnections.RenderSteppedConnection = rs.RenderStepped:Connect(function()
 
             local ping = tonumber(game:GetService("Stats"):FindFirstChild("PerformanceStats").Ping:GetValue())
             ping = math.floor(ping)
-            watermark:Set("1NF1N17Y | " .. fps .. " fps | " .. ping .. "ms | " .. script_version_number .. " | Private")
+            watermark:Set("Radiant | " .. fps .. " fps | " .. ping .. "ms | " .. script_version_number .. " | Beta Access")
 
             --* Local Player Mods *--
             local humanoid = plr.Character:FindFirstChildOfClass("Humanoid")
