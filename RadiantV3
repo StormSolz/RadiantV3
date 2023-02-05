@@ -1,6 +1,6 @@
 --* Script Info *--
 local script_version_number = "V3"
-local last_updated = "Legit RN"
+local last_updated = "2 Fucking Seconds Ago"
 
 --* Setup Script *--
 repeat wait() until game:IsLoaded() 
@@ -609,7 +609,7 @@ Anti_Predicition  = loadstring(game:HttpGet("https://cdn.sourceb.in/bins/rsv3W9y
 Anti_Aim          = loadstring(game:HttpGet("https://cdn.sourceb.in/bins/Jann9b3MVM/0"))()
 
 library           = loadstring(game:HttpGet("https://raw.githubusercontent.com/Callumgm/Roblox-Scripts/main/ui_new.lua"))()
-watermark         = library:Watermark("Radiant | 60 fps | 60ms | " .. script_version_number .. " | Beta Access")
+
 ESP, ESP_RenderStepped, Framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/Callumgm/INFINITY/main/assets/esp2"))()
 
 headSound = Framework:Instance("Sound", {Volume = 10, Parent = cgui})
