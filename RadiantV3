@@ -1689,7 +1689,7 @@ local esp = {
     }
 }
 
-local main = library:Load{ Name = "1NF1N17Y - " .. script_version_number .. " - Last Updated: " .. last_updated .. " - Private", SizeX = 600, SizeY = 650, Theme = "Midnight", Extension = "json",  Folder = "1NF1N17Y-Configs" }
+local main = library:Load{ Name = "Radiant - " .. script_version_number .. " - Last Updated: " .. last_updated .. " - Beta", SizeX = 600, SizeY = 650, Theme = "Midnight", Extension = "json",  Folder = "1NF1N17Y-Configs" }
 
 --* Tabs *--
 local Tabs = {
